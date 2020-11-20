@@ -1,4 +1,5 @@
-const { TestScheduler } = require("jest");
+/* === Reverse string tests===
+============================================================================= */
 const { reverseString } = require("./reverseString");
 
 test("Reverse word", () => {

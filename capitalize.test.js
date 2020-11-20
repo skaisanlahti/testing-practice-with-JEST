@@ -1,4 +1,5 @@
-const { TestScheduler } = require("jest");
+/* === Capitalize string tests ===
+============================================================================= */
 const { capitalize } = require("./capitalize");
 
 test("Capitalize first letter", () => {

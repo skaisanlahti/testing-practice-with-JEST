@@ -1,7 +1,7 @@
 function analyzer(array) {
   const average = array.reduce((prev, total) => prev + total, 0) / array.length;
-  const min = Math.min.apply(Math, array);
-  const max = Math.max.apply(Math, array);
+  const min = Math.min(...array);
+  const max = Math.max(...array);
   const length = array.length;
 
   return {

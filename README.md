@@ -29,7 +29,6 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 

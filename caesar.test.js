@@ -18,6 +18,10 @@ test("Works with large shifts", () => {
   expect(caesar("Hello, World!", 75)).toBe("Ebiil, Tloia!");
 });
 
+test("Works with large negative shifts", () => {
+  expect(caesar("Ebiil, Tloia!", -75)).toBe("Hello, World!");
+});
+
 test("Works with scandinavian letters", () => {
   expect(caesar("Hällö, Wörld!", 1)).toBe("Iömma, Xasme!");
 });
